@@ -42,6 +42,14 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
+  global binding - 'this' will be the window/console Object when in the global scope.
+
+  implicit binding - when a function is called by a preceding dot, the object left of the dot gets 'this'.
+
+  new binding - whenever a constructor function is used, 'this' refers to the new instance of the object created and returned by the constructor function.
+
+  explicit binding - when call or apply is used, 'this' is explicitly defined.
+
 5. Why do we need super() in an extended class?
 
   super brings the attributes of the class we're extending from
